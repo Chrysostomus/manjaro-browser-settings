@@ -16,16 +16,18 @@
     "import_bookmarks_from_file": "/usr/lib/chromium/bookmarks.html",
     "skip_first_run_ui": true
    },
+  "extensions": {
+    "theme": {
+    "id": "",
+    "use_system": true 
+    }
+  },
   "bookmark_bar" : { 
-    "show_on_all_tabs" : true 
+    "show_on_all_tabs" : false
   }, 
   "sync_promo" : {
     "show_on_first_run_allowed": false
-  }, 
-  "theme" : {
-    “id”:"",
-    “use_system”:true
-  }, 
+  },
   "first_run_tabs" : [ 
     "https://manjaro.org", 
     "welcome_page", 
